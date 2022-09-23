@@ -1,0 +1,79 @@
+.formPage 
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+    align-items: center;
+   
+    
+}
+
+.form
+{
+   
+    width: 30vw;
+  margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.2rem;
+    color: white;
+    border-radius: 0.5rem;
+    border: 0.2rem solid white;
+}
+.formInputs > input
+{
+   width: 25rem;
+   height: 2rem;
+   margin-left: 1.5rem;
+}
+
+.formInputs > label 
+{
+    font-size: 1.5rem;
+}
+
+.formButton 
+{
+    
+    width:20rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.formButton > button 
+{
+    width: 10rem;
+    height: 2.8rem;
+
+  
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+
+}
+
+.btn_loginIn 
+{
+    background-color: green;
+    border: none;
+
+}
+
+.btn_Sign_up
+{
+    background-color: rgb(16, 153, 233);
+    border: none;
+}
+
+.btn_toggle 
+{
+    background-color: blueviolet;
+    border: 0.2rem solid white;
+}
