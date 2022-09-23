@@ -10,7 +10,11 @@ const MainNavigation =()=>
 const authContext =   useContext(AuthContext);
 
 const isLogged = authContext.isLogged;
-const isLoggedOut=authContext.isLogged;
+const logOutHandler =()=>
+{
+    authContext.logout();
+}
+
 
 
 
@@ -36,7 +40,7 @@ const isLoggedOut=authContext.isLogged;
         
         </li>}
         
-       {isLogged&& <button className="button">Log Out</button>}
+       {isLogged&& <button className="button" onClick={logOutHandler}>Log Out</button>}
     </ul>
 </nav>
 </header>

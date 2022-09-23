@@ -1,10 +1,10 @@
-
+import '../StartingPage/startingPageContent.css';
 
 const StartingPageContent =()=>
 {
     return(
-        <section>
-            <h1>Welcome on Board</h1>
+        <section className="startingPage">
+            <h1>Welcome on Board user</h1>
         </section>
     )
 }
